@@ -1,0 +1,49 @@
+version: 2
+
+sources:
+
+  - name: uwninnipeg
+    description: "Class test data"
+    database: uwninnipeg
+    schema: class_test
+    tables:
+      - name: CUSTOMER
+        description: "this is the Customer table info"
+      - name: ORDERS
+        description: "this is orders  table info"
+      - name: PRODUCT
+        description: "This is a product table info"        
+
+
+  - name: pandp
+    description: "Parch and Ponsey"
+    database: uwninnipeg
+    schema: pandp
+    tables:
+      - name: ACCOUNT
+        description: "this is the account table info"
+      - name: ORDERS
+        description: "this is orders  table info"
+      - name: REGION
+        description: "This is a region table info"
+      - name: WEB_EVENT
+        description: "This is a web event info"
+      - name: SALES_REP
+        description: "This is a sales rep info"
+
+  - name: my_source
+    description: "Parch and Ponsey"
+    database: uwinnipeg
+    schema: pandp
+    tables:
+      - name: ACCOUNT
+        description: "this is the account table info"
+      - name: ORDERS
+        description: "this is orders  table info"
+      - name: REGION
+        description: "This is a region table info"
+      - name: WEB_EVENT
+        description: "This is a web event info"
+      - name: SALES_REP
+        description: "This is a sales rep info"
+        
